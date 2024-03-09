@@ -30,9 +30,11 @@ const NavBar = () => {
             </ul>
           </nav>
           <div>
-            <button className="bg-green-400 rounded-md text-white font-bold border px-4 py-1">
-              Log In
-            </button>
+            <Link to={"/login"}>
+              <button className="bg-green-400 rounded-md text-white font-bold border px-4 py-1">
+                Log In
+              </button>
+            </Link>
           </div>
         </div>
       </div>
